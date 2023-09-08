@@ -1,8 +1,18 @@
-for (let i = 0; i < 10; i++) {
-  console.log(i)
-}
+var str = "webcamp"
 
-console.log(i)
+function foo() {
+  console.log(str)
+  var str = "dmm webcamp"
+  console.log(str)
+}
+foo()
+
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(i)
+// }
+
+// console.log(i)
 
 
 // function foo() {
